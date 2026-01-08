@@ -44,6 +44,7 @@ jobs:
           Rscript '02_telechargement_data.R'
           Rscript '03_preparer_data.R'
           Rscript '04_preparer_graphiques.R'
+          Rscript '05_generer_rapport_html.R'
           "
           
       - name: Commit Results 
